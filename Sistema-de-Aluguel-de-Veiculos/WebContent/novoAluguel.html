@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Merriweather|Roboto&display=swap" rel="stylesheet">
+<title>Aluguel</title>
+</head>
+<body>
+
+	<h1>Novo Aluguel</h1><br><br>
+	
+	<div id="home">
+		<a href="Index.html"><img src="imagens/diagram-06_24511.ico"></a>
+	</div>
+	
+	<form action="ServletAluguel" method="post">
+		<label>CPF:</label><br>
+		<input type="text" name="cpfCliente" ><br>
+		
+		<label>Placa Veiculo:</label><br>
+		<input type="text" name="placaVeiculo" ><br>
+		
+		<label>Valor do Aluguel:</label><br>
+		<input type="text" name="Valor" ><br>
+		
+		<label>Forma de Pagamento:</label><br>
+		<input type="text" name="formaDepagamento" ><br><br>
+		
+		
+		<input type="submit" value="Enviar">
+	</form>
+
+</body>
+</html>
